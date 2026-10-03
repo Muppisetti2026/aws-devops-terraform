@@ -288,7 +288,7 @@ jobs:
       TARGET: dev
       TF_VAR_aws_region: ${{ vars.AWS_REGION || 'us-east-1' }}
       TF_VARS_JSON: ${{ vars.TF_VARS_JSON || '{}' }}
-      STATE_BUCKET: bucket-backend-terraform-313932316713-us-east-1
+      STATE_BUCKET: muniraj-demo-bucket-99001679779
       STATE_REGION: us-east-1
       AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
       ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
@@ -372,7 +372,7 @@ jobs:
       TARGET: test
       TF_VAR_aws_region: ${{ vars.AWS_REGION || 'us-east-1' }}
       TF_VARS_JSON: ${{ vars.TF_VARS_JSON || '{}' }}
-      STATE_BUCKET: bucket-backend-terraform-313932316713-us-east-1
+      STATE_BUCKET: muniraj-demo-bucket-99001679779
       STATE_REGION: us-east-1
       AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
       ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
@@ -463,7 +463,7 @@ jobs:
       TARGET: test
       TF_VAR_aws_region: ${{ vars.AWS_REGION || 'us-east-1' }}
       TF_VARS_JSON: ${{ vars.TF_VARS_JSON || '{}' }}
-      STATE_BUCKET: bucket-backend-terraform-313932316713-us-east-1
+      STATE_BUCKET: muniraj-demo-bucket-99001679779
       STATE_REGION: us-east-1
       AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
       ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
@@ -547,7 +547,7 @@ jobs:
       TARGET: pre
       TF_VAR_aws_region: ${{ vars.AWS_REGION || 'us-east-1' }}
       TF_VARS_JSON: ${{ vars.TF_VARS_JSON || '{}' }}
-      STATE_BUCKET: bucket-backend-terraform-313932316713-us-east-1
+      STATE_BUCKET: muniraj-demo-bucket-99001679779
       STATE_REGION: us-east-1
       AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
       ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
@@ -638,7 +638,7 @@ jobs:
       TARGET: pre
       TF_VAR_aws_region: ${{ vars.AWS_REGION || 'us-east-1' }}
       TF_VARS_JSON: ${{ vars.TF_VARS_JSON || '{}' }}
-      STATE_BUCKET: bucket-backend-terraform-313932316713-us-east-1
+      STATE_BUCKET: muniraj-demo-bucket-99001679779
       STATE_REGION: us-east-1
       AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
       ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
@@ -722,7 +722,7 @@ jobs:
       TARGET: prod
       TF_VAR_aws_region: ${{ vars.AWS_REGION || 'us-east-1' }}
       TF_VARS_JSON: ${{ vars.TF_VARS_JSON || '{}' }}
-      STATE_BUCKET: bucket-backend-terraform-313932316713-us-east-1
+      STATE_BUCKET: muniraj-demo-bucket-99001679779
       STATE_REGION: us-east-1
       AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
       ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
@@ -813,7 +813,7 @@ jobs:
       TARGET: prod
       TF_VAR_aws_region: ${{ vars.AWS_REGION || 'us-east-1' }}
       TF_VARS_JSON: ${{ vars.TF_VARS_JSON || '{}' }}
-      STATE_BUCKET: bucket-backend-terraform-313932316713-us-east-1
+      STATE_BUCKET: muniraj-demo-bucket-99001679779
       STATE_REGION: us-east-1
       AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
       ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
