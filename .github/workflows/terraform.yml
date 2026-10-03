@@ -129,7 +129,7 @@ jobs:
           OPERATION: ${{ needs.request.outputs.operation }}
           CONFIRMATION: ${{ inputs.confirmation }}
           PR_NUMBER: ${{ needs.request.outputs.pr }}
-          DEPLOY_BRANCH: feature_devops
+          DEPLOY_BRANCH: feature-devops
         run: |
           if [[ "$EVENT" == "issue_comment" ]]; then
             targets=()
