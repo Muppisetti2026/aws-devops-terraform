@@ -197,7 +197,7 @@ jobs:
       TARGET: dev
       TF_VAR_aws_region: ${{ vars.AWS_REGION || 'us-east-1' }}
       TF_VARS_JSON: ${{ vars.TF_VARS_JSON || '{}' }}
-      STATE_BUCKET: muniraj-demo-bucket-990016797799
+      STATE_BUCKET: muniraj-demo-bucket-99001679779
       STATE_REGION: us-east-1
       AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
       ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
